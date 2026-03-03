@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'odometrie = proj_etape_1.odometrie:main',
+            'odometrie = odometrie.odometrie:main',
             'pid = PID.pid:main'
         ],
     },
