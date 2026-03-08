@@ -21,9 +21,9 @@ class SuiviTrajectoire(Node):
         self.path_ref = Path()
         self.path_ref.header.frame_id = "odom"
 
-        # Gains de la loi de commande (à ajuster lors de vos tests)
-        self.k_rho = 0.6
-        self.k_alpha = 1.5
+        # Gains de la loi de commande
+        self.k_rho = 1.0
+        self.k_alpha = 4.0
         self.k_beta = -0.6
 
         # Sécurités / Saturations
