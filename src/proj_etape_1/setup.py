@@ -25,7 +25,8 @@ setup(
     entry_points={
         'console_scripts': [
             'odometrie = odometrie.odometrie:main',
-            'pid = PID.pid:main'
+            'pid = PID.pid:main',
+            'suivi_trajectoire = suivi_trajectoire.suivi_trajectoire:main',
         ],
     },
 )
