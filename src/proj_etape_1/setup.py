@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='rosdev',
     maintainer_email='simondumesny@gmail.com',
-    description='TODO: Package description',
+    description='Stratégies de navigation et localisation​ des robots mobiles',
     license='TODO: License declaration',
     extras_require={
         'test': [
@@ -31,3 +31,5 @@ setup(
         ],
     },
 )
+
+
