@@ -27,6 +27,7 @@ setup(
             'odometrie = odometrie.odometrie:main',
             'pid = PID.pid:main',
             'suivi_trajectoire = suivi_trajectoire.suivi_trajectoire:main',
+             'evitement_obstacle = evitement_obstacle.evitement_obstacle:main',
         ],
     },
 )
